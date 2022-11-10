@@ -1,0 +1,118 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store Website</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-1">
+                <a href="#" class="logo"> <i class="fas fa-book"></i> Palermo Books</a>
+
+                <form action="" class="search-form">
+                    <input type="search" name="" placeholder="Search here..." id="search-box">
+                    <label for="search-box" class="fas fa-search"></label>     
+                </form>
+
+                <div class="icons">
+                 <div id="search-btn" class="fas fa-search"></div>
+                    <a href="#" id="heart" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <div id="login-btn" class="fas fa-user"></div>
+                 
+                </div>
+            </div>
+
+            <div class="header-2">
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#featured">Featured</a>
+                    <a href="#arrivals">Arrivals</a>
+                    <a href="#review">Reviews</a>
+                    <a href="#blogs">Blogs</a>
+                </nav>
+            </div>
+
+        </header>
+
+
+
+
+        <nav class="bottom-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#featured" class="fas fa-list"></a>
+            <a href="#arrivals"class="fas fa-tags"></a>
+            <a href="#review" class="fas fa-comments"></a>
+            <a href="#blogs" class="fas fa-blog"></a>
+        </nav>
+
+        <div class="login-form-container">
+
+            <div id="close-login-btn" class="fas fa-times"> </div>
+
+            <form action="">
+                <h3>Sign In</h3>
+                <span>Username</span>
+                <input type="email" name="" placeholder="Enter your email" id="">
+                <span>Password</span>
+                <input type="password" name="" placeholder="Enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember Me</label>
+
+            </div>
+                 <input type="submit" value="Log In" class="btn">
+                 <p> Forget password? <a href="#">Click here</a></p>
+                 <p> Dont have an account? <a href="#">Create here</a></p>
+
+            </form>
+
+        </div>
+
+        
+        <section class="home" id="home">
+            <div class=" swiper row">
+
+                <div class="content">
+                    <h3>Upto 75% off for your first purchase</h3>
+                    <p>Palermo books provide the best updated books and a low price.</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+
+                    <div class="swiper books-slider">
+                        <div class="swiper-wraper">
+                    
+                            <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                            <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                            <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                            <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                            <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                        </div>
+                        <img src="image/stand.png" alt="" class="stand">
+                    </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        
+
+
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
